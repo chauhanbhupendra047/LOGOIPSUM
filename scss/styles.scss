@@ -1,0 +1,547 @@
+@font-face {
+    font-family: celebri-sans-normal;
+    src: url('/fonts/Cerebri\ Sans\ SemiBold.ttf');
+}
+@font-face {
+    font-family: oswal-normal;
+    src: url('/fonts/Oswald-Regular.ttf');
+}
+
+// NavBar
+.container-fluid{
+    .main-navbar-div{
+        .navigation-bar-div{
+            .navigation-bar{
+                .navbar-nav{
+                    font-family: celebri-sans-normal;
+                    .tab{
+                        color: #001659;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+// Banner 
+.main-banner-div{
+    background: url('/images/banner-background-img.png') #001659 center no-repeat scroll;
+
+    .main-banner-container{
+        .banner-heading{
+            font-family: oswal-normal;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 80px;
+            line-height: 90px;
+            letter-spacing: 0.01em;
+            width: 685px;
+            margin-top: 80px;
+        }
+        .banner-para{
+            font-family: celebri-sans-normal;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 32px;
+            letter-spacing: 0.01em;
+            width: 590px;
+            margin-top: 30px;
+        }
+        .banner-btn{
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            font-family: celebri-sans-normal;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: 0.01em;
+            padding: 21px 39px;
+            margin-top: 30px;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 3px rgba(26, 102, 222, 0.25);
+        }
+    }
+}
+
+// Contact Us
+.submit-div{
+    background-color: #FFFFFF;
+    transform: translate(0px, -110px);
+    .submit{
+        position: relative;
+        font-family: oswal-normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #FF5E14;
+        padding-top: 50px;
+    }
+    ::before{
+        content: '';
+        position: absolute;
+        background-color: #FF5E14;
+        height: 2px;
+        width: 40px;
+
+    }
+    .ContactUs-heading{
+        font-family: oswal-normal;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 60px;
+        color: #000000;
+        padding-bottom: 30px;
+    }
+    .contactus-text-boxes{
+        padding-bottom: 30px;
+    }
+    .contactus-btn{
+        background: #001659;
+        font-family: celebri-sans-normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.01em;
+        padding: 20px 65px;
+    }
+}
+
+// About us
+.aboutus-div{
+    .aboutus-para{
+        width: 645px;
+        .aboutus-label{
+            font-family: oswal-normal;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 22px;
+            letter-spacing: 0.01em;
+            color: #FF5E14;
+        }
+        .aboutus-heading{
+            font-family: oswal-normal;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 60px;
+            color: #000000;
+        }
+        .about-para{
+            font-family: celebri-sans-normal;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.01em;
+            color: #626466;
+        }
+    }
+}
+
+// Our Work
+.our-work-div{
+    .our-work-heading{
+        .our-work-heading-1{
+            .our-work-label{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                color: #FF5E14;
+            }
+            .our-work-heading{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+// How We Work
+.how-we-work-div{
+    .how-we-work-info{
+        .how-we-work-label{
+            font-family: oswal-normal;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 22px;
+            letter-spacing: 0.01em;
+            color: #FF5E14;
+        }
+        .How-we-works-heading{
+            font-family: oswal-normal;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 60px;
+            color: #000000;
+        }
+    }
+    .How-we-works-contents{
+        .How-we-works-contents-1{
+            .How-we-works-content-1{
+                border: 2px solid rgba(0, 22, 89, 0.2);
+                box-sizing: border-box;
+                box-shadow: 0px 10px 50px rgba(4, 30, 57, 0.1);
+                .How-we-works-content-1-heading{
+                    font-family: oswal-normal;
+                    font-family: Oswald;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 20px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                }
+                .How-we-works-content-1-para{
+                    font-family: celebri-sans-normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #626466;
+                }
+            }
+            .How-we-works-content-2{
+                border: 2px solid rgba(0, 22, 89, 0.2);
+                box-sizing: border-box;
+                box-shadow: 0px 10px 50px rgba(4, 30, 57, 0.1);
+                
+                .How-we-works-content-2-heading{
+                    font-family: oswal-normal;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                }
+                .How-we-works-content-2-para{
+                    font-family: celebri-sans-normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #626466;
+                }
+            }
+        }
+    }
+    .How-we-works-contents-2{
+        .How-we-works-content-3{
+            border: 2px solid rgba(0, 22, 89, 0.2);
+            box-sizing: border-box;
+            box-shadow: 0px 10px 50px rgba(4, 30, 57, 0.1);
+            
+            .How-we-works-content-3-heading{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                color: #000000;
+            }
+                .How-we-works-content-3-para{
+                    font-family: celebri-sans-normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #626466;
+                }
+            }
+            .How-we-works-content-4{
+                border: 2px solid rgba(0, 22, 89, 0.2);
+                box-sizing: border-box;
+                box-shadow: 0px 10px 50px rgba(4, 30, 57, 0.1);
+                .How-we-works-content-4-heading{
+                    font-family: oswal-normal;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                }
+                .How-we-works-content-4-para{
+                    font-family: celebri-sans-normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #626466;
+                }
+            }
+        }
+    }
+
+// Our services
+.our-services-container-div{
+    .our-services-info{
+        .our-services-info-heading{
+            .services-label{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                color: #FF5E14;
+            }
+            .services-heading{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 50px;
+                color: #000000;
+            }
+        }
+        .our-services-details{
+            .our-services-1{
+                .our-services-heading{
+                    font-family: oswal-normal;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                }
+                .our-services-para{
+                    font-family: celebri-sans-normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #626466;
+                }
+            }
+            .our-services-2{
+                .our-services-heading{
+                    font-family: oswal-normal;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                }
+                .our-services-para{
+                    font-family: celebri-sans-normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #626466;
+                }
+            }
+            .our-services-3{
+                .our-services-heading{
+                    font-family: oswal-normal;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+                }
+                .our-services-para{
+                    font-family: celebri-sans-normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #626466;
+                }
+            }
+        }
+    }
+}
+
+// Testimonials
+.testimonials-div{
+    .testimonials-info{
+        .testimonial-details{
+            .testimonial-label{
+                position: relative;
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                color: #FF5E14;
+            }
+            .testimonial-heading{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                color: #000000;
+            }
+        }
+    }
+    .testimonials-profiles{
+        .media{
+            .media-body{
+                .testimonial-profile-info{
+                    h5{
+                        font-family: oswal-normal;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 22px;
+                        letter-spacing: 0.01em;
+                        color: #000000;
+                    }
+                    .testimonial-profile-label{
+                        font-family: celebri-sans-normal;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            .testimonial-profile-para-div{
+                .testimonial-profile-para{
+                    font-family: celebri-sans-normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .media{
+            .media-body{
+                .testimonial-profile-info{
+                    h5{
+                        font-family: oswal-normal;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 22px;
+                        letter-spacing: 0.01em;
+                        color: #000000;
+                    }
+                    .testimonial-profile-label{
+                        font-family: celebri-sans-normal;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            .testimonial-profile-para-div{
+                .testimonial-profile-para{
+                    font-family: celebri-sans-normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .media{
+            .media-body{
+                .testimonial-profile-info{
+                    h5{
+                        font-family: oswal-normal;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 22px;
+                        letter-spacing: 0.01em;
+                        color: #000000;
+                    }
+                    .testimonial-profile-label{
+                        font-family: celebri-sans-normal;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            .testimonial-profile-para-div{
+                .testimonial-profile-para{
+                    font-family: celebri-sans-normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}
+
+// Sign Up Part
+.signup-div{
+    .signup-info{
+        .signup-label{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                color: #FF5E14;
+        }
+        .signup-header{
+                font-family: oswal-normal;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 50px;
+                color: #000000;
+                width: 475px;
+        }
+        .signup-para{
+                font-family: celebri-sans-normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.01em;
+                color: #626466;
+        }
+    }
+    .signup-form{
+        button{
+            background: #001659;
+            ;
+        }
+    }
+}
+
+// Footer Part
+.main-footer-div{
+    background: #001659;
+    .footer-nav{
+        .copy-right-div{
+            border: 1px solid white;
+        }
+    }
+}
